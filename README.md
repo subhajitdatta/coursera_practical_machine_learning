@@ -134,7 +134,13 @@ sample	rpart	randomForest	svm
 ALL   NA      NA        0.9405
 ```
 
-5> TEST predictions
+5> SELECT CLASSIFIER
+----------------------------------------------------------
+Based on the accuracy the Random Forest model is selected.
+![Alt text](random_forest_accuracy.jpg?raw=true "Accuracy")
+![Alt text](random_forest_model_error.jpg?raw=true "Errors")
+
+6> TEST predictions
 ----------------------------------------------------------
 Using randomForest using 10000 training samples
 ```
