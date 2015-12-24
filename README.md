@@ -137,7 +137,14 @@ ALL   NA      NA        0.9405
 5> SELECT CLASSIFIER
 ----------------------------------------------------------
 Based on the accuracy the Random Forest model is selected.
+```
+plot(model2)
+```
 ![Alt text](random_forest_accuracy.jpg?raw=true "Accuracy")
+
+```
+plot(model2$finalModel)
+```
 ![Alt text](random_forest_model_error.jpg?raw=true "Errors")
 
 6> TEST predictions
